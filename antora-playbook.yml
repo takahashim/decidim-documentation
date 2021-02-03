@@ -10,7 +10,7 @@ content:
     branches: HEAD
   - url: https://github.com/decidim/decidim
     start_path: docs
-    branches: develop
+    branches: main
 ui:
   bundle:
     url: https://github.com/decidim/documentation-antora-ui/releases/download/v0.3/ui-bundle.zip
