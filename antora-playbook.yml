@@ -1,12 +1,12 @@
 site:
-  title: Decidim Docs
-  url: https://docs.decidim.org
-  start_page: master@en:ROOT:index.adoc
+  title: Decidim Docs (JA)
+  url: https://decidim-docs-ja.netlify.app
+  start_page: master@ja:ROOT:index.adoc
 content:
-  edit_url: 'https://github.com/decidim/documentation/edit/{refname}/{path}'
+  edit_url: 'https://github.com/takahashim/decidim-documentation/edit/{refname}/{path}'
   sources:
   - url: &landing .
-    start_path: /en
+    start_path: /ja
     branches: HEAD
   - url: https://github.com/decidim/decidim
     start_path: docs

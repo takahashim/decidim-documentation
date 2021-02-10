@@ -1,0 +1,84 @@
+= 参加者 (Participants)
+:page-partial:
+
+== 登録と検証 (Registration and verification)
+
+本サイトのすべてのコンテンツは、誰でも直接アクセスすることができます。ただし、提案やコメントの提出を希望される方は *登録* が必要です。ユーザーは、プラットフォーム上で *直接* 登録することも、他の *ソーシャルネットワーク* （Facebook、Twitter、Google+）のゲートウェイを介して登録することもできます。直接登録するには、ユーザーアカウントに電子メールアカウントとパスワードを関連付ける必要があります。
+
+Any visitor can access all of the website’s content directly. However, anyone who wishes to submit proposals or comments will have to *register*. Users may register *directly* on the platform or through gateways of other *social networks* (Facebook, Twitter or Google+). To register directly, users will need to associate a email account and a password to the user-account.
+
+意思決定を重視した機能（推薦、投票など）は、*検証* を必要とします。主な検証方法は、自治体の登録簿やその他の登録者のデータベースと照合し、APIを介してDecidimが通信できるようにします。ユーザーは、 *テキスト* や郵便などで送られてくる特別な *コード* を使用して検証することもできます。参加者は、管理ダッシュボードから手動で検証することもできます。
+
+Decision-orientated features (endorsements, votes, etc.) require *verification*. The main verification method cross-checks against the municipal register or other databases of registered people with whom Decidim can communicate via API. Users may also be verified *by text* or using a special *code* sent by post or other means. A participant can also be *manually verified* from the administration dashboard.
+
+参加者は、検証プロセスの他に、自分のユーザー名を正式なものにすることもできます。公式化されると、参加者のユーザー名にはシンボルが表示され、第三者は、このユーザー名が自分の主張する人物と一致していることを認識することができます。
+
+Besides the verification process, participants can also ask to have their user name *made official*. Once made official, their user name will appear with a symbol that allows third parties to acknowledge that this user name corresponds to the person it claims to be.
+
+また、何らかの方法で本人確認が可能な *団体・組織* も登録・確認することができます。正式名称の状態は自動的に検証されます。
+
+*Associations and organisations* whose identity can be verified in some way can also be registered and verified. The official name status will be automatically verified.
+
+== 行政活動の公開登録 (Public registration of administrative activity)
+
+参加者の手動認証やその他の管理活動は、脆弱性を生み出したり、管理者が不正な方法でプラットフォームを使用することを可能にしたりする可能性があります。それを避けるために、Decidimには管理活動での *行政活動の公開登録* 機能が含まれているので、これらの行為は公に透過的に監査することができます。
+
+The manual verification of participants, as well as other administrative actions can create vulnerability or may enable the administrators to use the platform in an abusive manner. To avoid it, Decidim includes a *public register of administrative activities* so these actions can be publicly and transparently audited.
+
+== ユーザープロファイルと個人設定 (User profile and personal settings)
+
+参加者が自分のデータ（メールアドレス、パスワードなど）を **変更** したり、アバター画像をアップロードして有効にしたり、通知を設定したり、アカウントを削除したりすることができる **ユーザープロフィールページ** があります。
+
+There is a **user-profile page **where participants can make **changes to their data **(such as email account, password etc.), upload and enable an *avatar* image, set notifications or delete their account.
+
+また、ユーザープロフィールページでは、参加者が興味やスキルなどの *追加情報* を任意で追加することができ、その情報の可視性のレベルを選択することができます。これにより、個人的な通知を送信したり、参加者を他の参加者とマッチングさせて共同作業を行うことができます。
+
+The user-profile page also allows participants to add *additional information* to include interests and skills, voluntarily and by selecting the level of visibility of that information. This allows personal notifications to be sent and participants can be matched with others for collaborations.
+
+== モニタリングと通知 (Monitoring and notifications)
+
+参加者は、自分が作成したコンテンツに関する*自動通知*を受け取ることができます: 自分の提案に対するコメントやコメントへの回答、提案の結果(採否に関わらず)。
+
+Participants receive *automated notifications* regarding the content they have created: responses to comments and comments on their proposals, as well as the results of their proposals (whether accepted or rejected).
+
+自動通知以外にも、参加者はシステムの任意の要素（他の提案、結果、プロセス、アセンブリ、イニシアチブ、グループ、ユーザーなど）を **フォロー** することを決めて通知を受け取ることができます。
+
+Besides automated notifications, participants can decide to **follow any element** of the system (other proposals, results, processes, assemblies, initiatives, groups or users etc.), and receive notifications.
+
+== 参加者間のコミュニケーション (Communication among participants)
+
+**インスタントメッセージ** は、プラットフォームを介して参加者に送信することができます。
+
+**Instant messages **can be sent to participants through the platform, who will receive an email notification.
+
+また、登録したユーザーに *コメント* を追加することができ、自動的に通知が送信されます。
+
+*Mentions* can also be added (in the comments section) to any registered user and a notification will be automatically sent.
+
+== エンゲージメント (Engagement)
+
+Decidimは、プラットフォームに _ゲーミフィケーション_ を導入することを目的とした一連の機能を備えており、*増加する参加者の興味を惹きつけ* 、維持することができます。[ゲーミフィケーションシステムは2018Q2-3, AjB-Lote1に予定されています]
+
+Decidim has a series of features geared to _gamifying_ the platform, to *attract and keep a growing number of participants interested*, as well as to promote practices that boost democratic quality and collective intelligence in participation [the gamification system is expected for 2018Q2-3, AjB-Lote1].
+
+ゲーミフィケーションシステムには、ユーザーを中心としたモードと提案を中心としたモードの2つのモードがあります。
+
+The gamification system includes two modes, one centred on users and the other on proposals.
+
+* **ユーザー中心の** モードでは、いくつかの基準（ユーザープロフィールの詳細度、プラットフォーム上での他の人への招待数、提案・コメント数、コメント数、賛同数、フォロワー数など）に基づいた *ポイント制* を採用しています。 The **user-centred **mode incorporates a *points system* based on several criteria (degree of detail of its user profile, number of invitations to others on the platform, number of proposals made and commented on, number of comments, number of endorsements obtained, number of followers, etc.)
+
+これらの指標とその他の指標を組み合わせて、各ユーザーのゲーミフィケーションルートを生成し、「地区内で最も参加している人」「議論や議論でのリーダーシップ」などのスレッドを定義します。
+
+The combination of these and other indicators is used for generating gamification routes for each user and defining threads such as: most participatory person in the district, leadership in discussions and debates, etc.
+
+* 提案・イニシアティブを中心としたゲーミフィケーションでは、提案者、署名者、フォロワーは、いくつかの指標（ソーシャルネットワークでの共有回数、論争の度合い（肯定的なコメントと否定的なコメントの数）、審議の質（観察ツリーの深さ）、受信したヒット数など）を取り入れることで、提案者との交流を高めることができます。 Gamification *centred on proposals/initiatives* allows promoters, signatories and followers to boost interaction with them by incorporating several *metrics* (number of times that the proposal is shared in social networks, degree of controversy (number of positive and negative comments), quality of deliberation (depth of observation tree), number of hits received, etc.
+
+== ユーザーグループ (User groups)
+
+参加者は、1つまたは複数の組織/団体のメンバーとしてプラットフォームに登録することができます。組織とメンバーの状態が確認されると、参加者は自分のユーザー名または組織名を使ってアクション（提案やコメントの提出など）を実行することができます。
+
+Participants can register with the platform as members of one or several organisations/collectives. Once the organisation and membership status have been verified, participants can carry out actions (make proposals or submit comments, etc.), with their user or with the organisation name.
+
+また、ユーザーグループは、グループに割り当てられたユーザーの権限や管理者の役割を管理したり、プライベートな議論の場を管理したり、グループ内のユーザー間で情報を共有したりすることができます。[現状は機能未実装]
+
+User groups can also manage user permissions and administration roles assigned to groups, as well as private debate spaces or share information among group users, for example, who attended an in-person meeting. [Feature currently missing]

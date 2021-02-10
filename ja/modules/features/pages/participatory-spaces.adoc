@@ -1,0 +1,95 @@
+= 参加型スペース (Participatory spaces)
+:page-partial:
+
+参加型スペースは主な参加型チャンネルを定義します。それらはプラットフォームのメイン上部メニューに表示されます。
+
+Participatory spaces define the main participatory channels. They are displayed in the platform's main upper menu.
+
+Decidimの構造の背後にある基本的なロジックは、*コンポーネントが参加型スペース* で一緒に働くということである。異なるタイプのスペース（イニシアチブ、プロセス、協議会、集会）があり、それぞれのタイプの中に様々なインスタンスがある（選挙のためのプロセスと参加型予算のための別のプロセス、近隣地域のための議会組織と労働者のための別の組織、法律の変更を呼びかけるイニシアチブと全体会議の議題に含まれる何かのための別のイニシアチブなど）。
+
+The basic logic behind Decidim's structure is that *components work together in the participatory spaces*. There are different types of spaces (initiatives, processes, consultations and assemblies) and various instances within each type (a process for an election and another for participatory budgets, council body for neighbourhoods and another for workers, an initiative to call for a change in legislation and another for something to be included in a plenary meeting agenda, etc.).
+
+== プロセス (Processes)
+
+参加型プロセスには、以下のフィールドを持つ一般的な *設定* フォームが必要です: プロセスのタイトルまたは名前、URLの短縮名、ハッシュタグ（ソーシャルネットワーク上でのコミュニケーションのための参照として使用される）、短い説明文、長い説明文、ホームページの画像、バナー画像、開始日と終了日、フィールド、推進者グループ（政治的なレベルで参加型プロセスに責任を持つ、地方自治体、または自治体の専門家/政治家、協会や他の組織からなるグループの場合もある）、誰を対象としているか、参加型プロセスの目標と参加型構造。参加型プロセスでは、*付随する文書* を追加することができます。
+
+Participatory processes require a general *configuration* form with the following fields: Title or name of the process; short name for URL; hash tag (used as a reference for communications on social networks); short description; long description; home page image; banner image; date of start and finish; field; promoter group (responsible for the participatory process on a political level, may be the local authority or a group made up of the authority’s experts/politicians and associations and other organisations); who it is aimed at; goal of the participatory process and participatory structure. The participatory process allows *accompanying documents* to be added.
+
+参加型プロセスは、 *段階* に分けられる（例: 1. 情報収集・招集段階、2.診断段階、3.提案段階、4.優先順位付け段階、5.決定段階、6.評価段階、7.結果モニタリング段階）。) 各ステージには、タイトル、説明、開始日、終了日が設定されています。
+
+Participatory processes are divided into *stages* (e.g. 1. Information and convening stage; 2. diagnostics stage; 3. proposals stage; 4. prioritisation stage; 5. decision stage; 6. evaluation stage and 7. results-monitoring stage). Each stage includes the following configuration fields: title, description, start date, end date.
+
+*告知やテキスト*のハイライトをプロセス内で表示することもできます。
+
+*Highlights of announcements or texts* may also be displayed in the processes, both on the home page and in the heading of each component (proposals, discussions and debates, etc.) Different messages can be configured depending on the particular stage of a process.
+
+*参加型プロセス設定ツール* は、ステージとそのコンポーネントの簡単な有効化と無効化を可能にします。Decidimのプロセス設定ツールは、最も強力な機能の一つであり、様々な現実や市民参加の形態に応じて参加型プロセスを設計する上で、完全な柔軟性を可能にします。
+
+A *participatory process configuration tool* enables the simple activation and deactivation of stages and their components. Decidim's process configuration tool is one of its most powerful features, enabling total flexibility in designing participatory processes according to the various realities and forms of citizen participation.
+
+**プロセスグループ** の機能により、異なる地区や地域の参加予算など、様々なプロセスをグループ化することができます。
+
+The feature of **process groups **enables various processes to be grouped, such as by the Participatory Budgets of different districts or neighbourhoods.
+
+参加型プロセスは、以下のプロセスステータス*のいずれかを持つことができます: 0）公開または未公開、1）公開（開始）、2）閉鎖（参加型プロセスは終了したが、その結果はまだ進行中、3）終了（プロセスとその結果の段階の両方が完了している）、4）将来（まだ開始していない）。
+
+Participatory processes may have one of the following *process statuses*: 0) published or unpublished; 1) open (started); 2) closed (the participatory process has ended but its results are still under way; 3) finished (both the process and its results phase are complete) and 4) future (has not yet started).
+
+プロセスは**ハイライト**（ホームページ上での視認性を高める）することができます。
+
+A process can be **highlighted** (which increases its visibility on the homepage).
+
+管理パネルから **参加型プロセスを複製** することも可能です。この機能により、プロセスモデルを設計してコピーすることができ、新しいプロセスの中で特定の詳細を設定することができ、ゼロからプロセスを作成する必要がなくなります。
+
+There is also the possibility to **copy participatory processes** from the administration panel. This feature enables process models to be designed and copied so that certain details can be configured within the new processes, avoiding the need to create them from scratch.
+
+== アセンブリ (Assemblies)
+
+Decidimでは、提案や決定を行う権限を持った、個人または代表レベルで定期的に会合を持ち、構造化された参加者グループとして定義された、参加型または政府の*アセンブリ* (政府または参加型の組織、協議会、作業グループなど)の**作成と設定**を可能にしています。
+
+Decidim allows the **creation and configuration** of participatory or government *assemblies* (government or participatory bodies; councils; work groups, etc.) defined as structured participant groups which, whether on an individual or representative level, meet up periodically, with the authority to make proposals and decisions.
+
+アセンブリーセクション*では、管理パネルから有効化および設定されたすべてのアセンブリーの完全なリストを見ることができます。基本的な*設定*では、各団体ごとに以下のフィールドを入力する必要があります: 名前、イメージ、範囲(グローバル、地域的またはセクター的)、団体の機能(活動目的)、団体の種類(政府、執行機関、協議/諮問、参加型、作業グループ、委員会など)、作成日、(市議会、市民またはその他の人の主導で作成された)、期間(無期限または固定、後者の場合は終了日)、Decidimに含まれる日付、閉鎖日と理由、団体の構成方法(機能、権限など)、構成、Decidimに含まれることが可能な場合は、その理由を入力してください。 組織の構成、参加の可否とその方法、メンバーの選出方法、組織内のメンバーの種類／機能、監視委員会や諮問委員会としての内部作業グループの構成、組織の特徴、組織のソーシャルネットワーク（ソーシャルネットワークの名称とリンク）、組織の次回会合。
+
+The *assemblies section* allows you to see a full list of all of the assemblies that are activated and configured from the administration panel. The basic *settings* require the following fields to be completed for each body: name; image; scope (global, territorial or sectoral); body’s function (purpose of action); type of body (government, executive, consultative / advisory, participatory, work group, commission etc.); creation date; created on the initiative of (City Council, citizens or others); duration (indefinite or fixed, in the latter case, finishing date); date of inclusion in Decidim; date of closure and reason; how it is organised (functions, powers etc.); composition; if it can be joined and how to do that; method of choosing members; type/ function of members within the body; composition of internal work groups as monitoring or advisory committees; characteristics of the body; the body's social networks (name of social network and link) and the body’s next meetings.
+
+* *会議招集機能*: 会議の自動招待状の送信、共同での議題作成、出席者の登録が可能です。機能の完全なリストは、"ミーティング "コンポーネントを参照してください。 *Convening meetings*: enables to send automatic meeting invitations, collaboratively create agendas, and register attendance. For a complete list of features see the "meetings" component.
+* *アセンブリの特性*: オープン、パブリック、透明性、およびアセンブリが許可する参加レベルに関するその他の特性。 *Assembly’s characteristics*: open, public, transparent and other characteristics regarding the level of participation that the assembly allows.
+* *合成*: これにより、本体に関連付けられた参加者のプロファイルやその他の特性を使用して、本体の構成をより詳細に定義することができます。参加メンバーの構成に基づいて、ボディの構造の表示が自動的に生成されます。 *Composition:* This enables the composition of the body to be defined in greater detail, using the profiles of participants associated with the body as well as other characteristics. A display of the body’s structure is automatically generated based on the composition of participating members:
+** *メンバーの種類*: 議長、副議長、幹事、その他  *Types of members*: Chair, deputy chair, secretaries, others
+** *メンバーシップの発生源*: 抽選、直接選挙、他の議会からの代表、政府代表など。  *Membership origin*: by draw; direct election; representation from another assembly; government representation etc.
+** *内部作業グループ*: サブアセンブリの設立のためのもの。作業グループは、所属する団体に関連することができるようになる。 *Internal work groups*: for the creation of sub-assemblies. Work groups will be able to relate to the body they belong to
+** *特徴*: 公開/非公開、透明性、様々なアクセス許可があります。 *Characteristics*: Open/closed; transparent; with various access permits.
+* *表示*: 各ボディの内部データとアセンブリ間の関連付けを表示することができます。 *Display*: allows us to view internal data about each body as well as the associations between assemblies
+* *構成*: 体の構造を円グラフの形で示します。 *Composition*: the structure of a body is shown in the form of a circle diagram
+** *組織図*: アセンブリの階層やネットワークとその関連付けを見ることができます。  *Organisation charts*: allow us to view the hierarchy or network of assemblies and their associations.
+* *地図とカレンダー*: すべてのアセンブリの位置を地図とカレンダーで表示することができます。  *Map and calendar*: allow us to view the location of all the assemblies on a map and calendar
+* *他のスペースやコンポーネントとの関わり*  *Involvement with other spaces and components*
+** *プロセスへの関与*: アセンブリは、推進者グループになることも、プロセスを開始することも、プロセス内で提案を行うこともできます。団体の構成は、プロセスの結果である可能性があります（ポストの選出のため）。 *Involvement with processes*: assemblies can be promoter groups, start a process or make proposals within a process. A body’s composition may be the result of a process (for electing posts)
+** *提案と結果*: 機関は、独自の提案や結果を作成することができます。 *Proposals and results*: a body can generate its own proposals or results.
+*** 提案がどのように合意されたか(コンセンサス、多数決、投票数など)を示します。 It shows how the proposal was agreed on (by consensus, majority, number of votes etc.).
+** *ミーティング*: 集合体は関連する会議のリストを持っていますが、ある機能は1つの会議から別の会議へと移動することができます。同様に、議事録は組織に直接関連付けられているため、会議とは別に議事録を表示することができなければなりません。 *Meetings*: assemblies will have a list of associated meetings, but some features may jump from one meeting to another, such as citizen initiatives to include an item in an agenda. Likewise, it must be possible to view minutes separately from the meeting, as they are associated directly with the body .
+
+== イニシアチブ (Initiatives)
+
+*イニシアティブ*。この参加型スペースでは、市民が提案を行い、種類に応じて *必要な数の署名や承認* を集めることができます（種類は市の条例に定められています）。その処理と市民の監視のための行政手続きの開始をもたらしています。
+
+*Initiatives*. This participatory space allows citizens to make proposals and collect the *requisite number of signatures and/or endorsements* depending on type (the various types are set out in the municipal regulations), giving rise to the start of the administrative procedure for its processing and citizen monitoring.
+
+イニシアティブは以下のように行われます:
+
+Initiatives operate as follows:
+
+* どのような個人または市民団体でも、市民イニシャティブの提案を行うことができます。イニシアチブには *様々なタイプ* があり、その処理に必要な承認/署名の数は様々です（これらはすべて設定可能です）。イニシアチブ作成のページでは、それぞれの方法の説明、必要署名数、事例（解説動画など）を見ることができます。 Any person or citizen association can make a citizen-initiative proposal. There are *several types of initiatives* with various numbers of endorsements/signatures required for their processing (these are all configurable). From the initiative-creation page, a description of each of the methods, the number of signatures required and examples (e.g. explanatory videos) can be viewed.
+* 重複を避けるため、イニシアチブが作成されると、システムは次のステップに進む前に、**類似のイニシアチブ** の提案を提示します。類似の提案が除外されると、各タイプのイニシアチブの具体的なフォームが表示され、必要最低限の賛同者数が表示されます。作成者は自由に使えるURLを持っているので、他の人にも参加してもらい、賛同してもらうことができます。また、地図には、署名を集めるための集合場所が表示されます。 To avoid duplicates, once an initiative has been created, the system will present suggestions for **similar initiatives** before continuing with the following step. Once similar proposals have been ruled out, the specific form will be shown for each type of initiative, along with the minimum number of endorsements required. The creator then has an URL at their disposal which can be used to invite others to join in and endorse the initiative. A map is also displayed showing the locations of meeting points to collect signatures should there be any.
+* イニシアチブが作成されると、イニシアチブは **技術的な修正と検証** の段階に移行し、市議会のスタッフが様々な方法で対応することができます（承認、拒否、修正の提案など）。 Once the the initiative has been created, the initiative will move to a **technical moderation and validation** stage, where the City Council’s staff can respond in various ways (by approving it, rejecting it or suggesting amendments).
+* イニシアチブは監視され、更新された **ステータスに関する** 通知を受け取ることができます。また、個々の推進者やグループは、イニシアチブに従うことを選択したプラットフォームの他の利用者に定期的に情報ニュースレターを送信することができます。 Initiatives can be monitored and **notifications received on updated** statuses, in addition to which their individual promoter or group can periodically send information newsletters to other uses of the platform who have opted to follow the initiative.
+* イニシアチブは、指定された終了日に到達すると、2つの状態になる可能性があります。 On reaching the specified end date, an initiative can have two possible states:
+** *却下*: 最低署名数に達しなかった場合、「必要な署名数に達していません」というメッセージが表示され、イニシアチブの作成者に通知されます。 *Rejected*: where it fails to reach the minimum number of signatures, a message will be shown stating "does not meet the number of signatures required" and the initiative's creator will be notified.
+** *承認*: 十分な署名数に達した場合は承認され、対応する手続きが開始されます。 *Accepted*: where it has achieved a sufficient number of signatures or endorsements it will be accepted and the corresponding procedure will start.
+
+== コンサルテーション (Consultations)
+
+コンサルテーション（組織の参加者全員が特定の質問に投票するために呼ばれる投票手続き）では、参加者は、 **現在または将来のコンサルテーション** について調べたり、コンサルテーションの対象分野について **議論や討論** をしたり、結果を *モニター* したりすることができます。また、Decidimの外部にありつつも、身元を管理・確認するためにインターフェイスに統合されている *電子投票システムへのゲートウェイ* を提供します。
+
+Consultations (a voting procedure where all of the organisation’s participants are called to vote on specific questions), allows participants **to find out about current or prospective consultations**, *discuss and debate* the consultation’s subject area and *monitor* the results. It also provides a *gateway to an e-voting system* which is external to Decidim but integrated in the interface in order to manage and verify identities.

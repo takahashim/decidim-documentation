@@ -1,0 +1,31 @@
+= Decidimドキュメントへようこそ (Welcome to Decidim Documentation)
+
+これはバルセロナ市が最初に作った参加型民主主義プラットフォーム、Decidimのドキュメントサイトです。
+
+This is the documentation site to Decidim, a participatory democracy platform created initially by Barcelona City Hall.
+
+== Decidimは初めてですか? (New to Decidim?)
+
+これはDecidimのドキュメントです。プロジェクトについては https://decidim.org[decidim.org] をご覧ください。
+
+You’ve found the documentation for Decidim. Learn about the project at https://decidim.org[decidim.org].
+
+// * xref:ROOT:get-started.adoc[Getting Started guide] を読んでください。
+// * Read the xref:ROOT:getting-started.adoc[Getting Started guide]
+
+ドキュメントは xref:install:index.adoc[インストール]、xref:configure:index.adoc[設定]、そして xref:admin:index.adoc[運用]をカバーしています。
+
+The documentation covers xref:install:index.adoc[installing], xref:configure:index.adoc[configuring], and xref:admin:index.adoc[running] your own Decidim site.
+
+ソースコードを変更したい場合は、xref:develop:guide.adoc[開発者向け]のドキュメントもあります。
+
+If you want to make changes to the source code, we have documentation for xref:develop:guide.adoc[developers] too.
+
+Decidimを使いたいと思っている組織や、ソフトウェアの共同開発に興味のある開発者の方は、https://decidim.org/contact[お問い合わせ] までご連絡ください。
+
+If you are an organisation who wants to use Decidim, or a developer who is interested in collaborating on the software, please https://decidim.org/contact[get in touch].
+
+Decidimはコミュニティの力によるものですので、もしこれらのガイドに誤りを見つけたら hola [at] decidim [dot] orgまでお知らせください。あらゆる協力を歓迎します。もしあなたがGitHubユーザーであれば、各ページの編集リンクを使って、このウェブサイトの変更を提案することもできます。
+
+Decidim is a community effort, as such if you find any errors on these guides please let us know at hola [at] decidim [dot] org. Every help is welcome. If you've a GitHub user then you can even propose changes to this website with the Edit link on every page.
+

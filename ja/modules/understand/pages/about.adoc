@@ -1,0 +1,138 @@
+= 概要 (About)
+
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+Decidimはテクノポリティカルなプロジェクトです。民主的な都市のためのデジタル市民参加型のプラットフォームで、フリーソフトウェアを使ってオープンに共同で作られています。それはパブリック・コモンズのインフラストラクチャです。パブリックとは、明確な制度的動機を享受しているからであり、コモンズとは、コードがオープンで自由であるためです。Decidimは市民参加のプロセスとスペースを調整するために設計されたプラットフォームであり、市民参加へのアクセスを拡大・促進し、公共政策の共同設計・共同制作における審議とコラボレーションのための新しいスペースを開き、直接参加と民主主義のための新しいスペースを開くことを目的としています。
+
+[#decidim.barcelona-fig]
+._decidim.barcelona_.
+image::image69.png[decidim.barcelona homepage]
+
+== 原則 (Principles)
+
+Decidimプラットフォームは、デジタル時代のさらなる探求と民主的イノベーションを促進する一連の原則に基づいて設計・開発されており、特に地方自治体の規模に重点を置いて、様々なレベルでの市民参加型政策と民主的な政府形態の改善・開放・発展の可能性があります。これらの原則は以下の通りです。
+
+The Decidim platform has been designed and developed on the basis of a series of principles that promote further exploration and democratic innovation in the digital era as well as possibilities for improving, opening and developing citizen-participation policies and democratic forms of government at various levels, with special emphasis on the municipal scale. These principles are listed below:
+
+=== テクノポリティカル・ハイブリダイゼーション (Technopolitical hybridisation)
+
+これは「デジタル還元主義」（Calleja-López, 2017）と定義されるものを防ぐための鍵となります。これはテクノセントリズムの一種であり、新しい参加型の形態のデジタルな側面やインフラに主に、あるいはそれだけに重点を置き、対面とデジタル参加のハイブリッド化から生じる参加型の実践やプロセス、文化に必要な強力なイノベーションを扱うことなく、そのようなものに重点を置くものです。ハイブリッドなアプローチは、decidim.barcelonaで行われているスペースや活動を、対面で行われているスペースや活動と結びつけ、新しい形の集団行動を促進する目的で生じる可能性のある複数のバリエーションを検討することを試みています。
+
+This is key to preventing what we could define as “digital reductionism" (Calleja-López, 2017), a variant of technocentrism that puts the emphasis mainly or exclusively on the new participatory forms’ digital aspects and infrastructures, without dealing with the necessary powerful innovations in participatory practices, processes and culture that result from the hybridisation of face-to-face and digital participation. The hybrid approach attempts to connect spaces and activities taking place in decidim.barcelona with face-to-face spaces and activities and to consider the multiple variants that may arise for the purposes of boosting new forms of collective action.
+
+===  強化されたマルチモーダルな参加 (Enhanced and multi-modal participation)
+
+デジタル還元主義の結果、「クリック参加」（Calleja-López, 2017）が促進され、参加はデジタル的な側面から、そしてより具体的には、その利便性、スピード、そして他のプレイヤーやアイデアとの非干渉性から、明確な現象となります。そのため、decidim.barcelonaの人々の間で、そして彼らの間で、プラットフォームのコンテンツと広い意味でのハイブリッドな参加型プロセスの間で、より豊かな相互作用の形を促進する必要があります。これは、一方では投票を超えた機能（情報やデータの表示、審議など）を持つ参加型プロセスを豊かにし、他方ではハイブリッドなプロセス（例えばプラットフォームに接続された対面式のミーティングなど）をデザインすることを意味します。
+
+The result of digital reductionism is to foster "click-participation" (Calleja-López, 2017), where participation becomes a definite phenomenon, first and foremost for its digital aspect, and, more specifically, for its convenience, speed and non-interference with other players and ideas. There is therefore a need to boost enriched forms of interaction between people in decidim.barcelona, ​​and between them, the platform’s contents and the hybrid participatory processes in a broader sense. This implies, on the one hand, enriching participatory processes with functions that go beyond voting (information and data displaying, deliberation etc.,) and, on the other, designing hybrid processes (e.g. Face-to-face meetings connected to the platform), which turn participation into an enhanced, comprehensive and multimodal participation, rather than reduced and “clicked”.
+
+===  透明性とトレーサビリティ (Transparency and traceability)
+
+ユーザーのプライバシーに影響を与えるデータを除いて、デジタルメディアにおける参加型プロセスの活動の詳細は、新しいレベルの参加の透明性を促進するために、絶対的に追跡可能で公開されている必要があります。透明な参加とトレーサビリティは、これらの新しいプロセスへの信頼のために必要な条件である。
+
+With the exception of data that can affect user privacy, details of activities in participatory processes in digital media need to be absolutely traceable and public, if a new level of transparency in participation is to be fostered. Transparent participation and traceability are necessary conditions for confidence in these new processes.
+
+=== オープン・リリース (Opening/ releasing)
+
+リリースとオープンの原則は、第一にプラットフォームのコードと機能、第二にプロセスのデータとコンテンツ、そして第三に、より一般的にはプロセス自体に言及しています。これは、最初の2つのケースでは、最も厳密なshare-alikeなライセンスと標準を使用することを意味します (例: コードにはAffero GPLv3、コンテンツにはCreativeCommons、データにはOpen Access Database Licences)。Decidimは、それがベースになっているコードを誰もが見たり、修正したり、再利用したりできるフリーソフトウェアプラットフォームである必要があります。プロセスの場合、これらの原則は透明性やアクセシビリティなど、このリストで言及した他のいくつかの原則と関連しており、これらのプロセスを複数のレベルで可能な限り参加型で再利用可能なものにすることを目的としています。
+
+The principles of releasing and opening refer firstly to the platform’s code and functions, secondly to the processes’ data and contents and thirdly and more generically, to the processes themselves. This implies, in the first two cases, using the most exacting share-alike licenses and standards (e.g. Affero GPLv3 for code, CreativeCommons for content, Open Access Database Licences for data). Decidim needs to be a free-software platform that allows anyone to see, amend and reuse the code it is based on. In the case of processes, these principles connect to several others that we mention in this list, such as transparency and accessibility, and aim to make these processes as participatory and reappropriable as possible on multiple levels.
+
+=== 分野横断的な参加 (Cross-cutting participation)
+
+15Mのような最近のイニシアティブの成功の鍵の多くに対処するために、decidim.barcelonaの展開とコミュニケーション戦略とメディアプロセスは、可能な限り多くの社会的・政治的グループの手が届く範囲で、まず正統性を獲得し、次に参加することに向けて調整される必要があります。
+
+Dealing with many of the keys of success for recent initiatives such as 15M, decidim.barcelona's deployment and communication strategies and media processes need to be geared towards achieving legitimacy first and then participation, within reach of as many social and political groups as possible.
+
+=== 知識、技術科学、集団的知性 (Knowledge, technoscience and collective intelligence)
+
+新しい形態の参加は、意思決定と参加を改善するために、市民からの一般的な知識と専門家の知識、そしてデータ科学（時には参加型プロセス自体からのデータ）の両方によって提供される可能性から恩恵を受けるべきです。社会的知識を触媒することができる、情報に基づいた専門家の参加。
+
+The new forms of participation should benefit from the possibilities that are offered by both popular and expert knowledge from citizens and data science (data occasionally from the participatory processes themselves) to improve decision-taking and participation. An informed and expert participation, capable of catalysing social knowledge.
+
+=== 集団的・ネットワーク的参加 (Collective and networked participation)
+
+デジタルを媒介とした「強化された」参加を実現するための中心的な課題の1つは、遠隔地からの参加の状況から生じることが多いアトマイズ化の傾向に直面して、その集合的な次元を高めることです。これは、プラットフォーム上であろうと対面であろうと、集団的なプロセスにおけるユーザー間の相互作用を促進する機能を使用することを意味します。より良い参加をコーディネートするためには、デジタルまたは対面での議論や審議の場が必要です。
+
+One of the central challenges to achieiving an “enhanced”, digitally mediated, participation, is boosting its collective dimension in the face of atomising tendencies, often resulting from remote-participation conditions. This implies using functions that boost interactions between users in collective processes, whether on a platform or face to face. Digital or face-to-face discussion and deliberation spaces are necessary for coordinating better participation.
+
+=== パブリック・コモンズ志向，再利用と再帰的参加 (Public-commons orientation, reappropriation and recursive participation)
+
+民主主義の新しいデジタル・インフラは、コモンズに属する、コモンズによる、コモンズのための空間でなければなりません。民主主義が促進されるためには、インフラ自体が根本的に民主的でなければなりません。これは、公共圏を民営化するためのものに代わる革新的で代替的なモデルを検討することを意味します。そのためには、Decidimは公共と共同体の構築、所有、利用のデジタル・インフラである必要があります。言い換えれば、私たちが「テクノポリティカル・コモンズ」と定義するものは、その設計と管理において、誰もが、そして誰もが参加できるように開かれたテクノロジーであり、流通を通じて管理され、共同生産やShare-alikeなモデルで管理されています。大企業が管理する閉鎖的で排他的なプラットフォームと比較して、Decidimは民主主義のための民主主義的なインフラストラクチャです。
+
+Democracy’s new digital infrastructures have to be a space belonging to, by and for the commons. If democracy is to be promoted, infrastructures themselves have to be radically democratic. This implies consideration of an innovative and alternative model to the one for privatising the public sphere. To this end, Decidim needs to be a digital infrastructure of public-commons construction, ownership and use. In other words, what we define as "technopolitical commons", technology open to participation from everyone and anyone in its design and management, governed through distribution and with collective-production and share-alike models. Compared to the closed and exclusive platforms controlled by big corporations, Decidim is a democratic infrastructure for democracy.
+
+=== テクノポリティカルなアクセシビリティとトレーニング (Technopolitical accessibility and training)
+
+また、公共サービスである必要があり、そのためには、市民が参加し、その可能性をすべて活用するためのアクセスと訓練を確保することが不可欠である。草の根の力で利用を促進し、排除された社会的グループによる利用を促進することは、重要な課題です。decidim.barcelonaとデジタル参加型のプロセスは、より厳しいアクセシビリティの基準（例：ウェブ・アクセシビリティ・イニシアチブ、WAI）に準拠していなければなりません。
+
+It also needs to be a public service, which is why it is essential to ensure citizens have access and training for taking part and exploiting all its potential. Promoting its grassroots-empowered use and use by excluded social groups is a key challenge. Both decidim.barcelona and digital participatory processes have to be governed by more demanding accessibility standards (e.g. Those of the Web Accessibility Initiative, WAI).
+
+=== 独立性、エンパワーメント、所属 (Independence, empowerment and affiliation)
+
+ここ数年の間に社会運動が何かを実証したとすれば、それは、変化のプロセスのキックスタートと誘導において、自己組織化された集団行動が果たす中心的な役割です。この点において、decidim.barcelonaとそのプラットフォームを利用したプロセスは、社会の独立性と自己組織化を促進する必要があります。さらに、プラットフォームの中長期的な公共性や活動の正当性の鍵となる要素である政治的な所属は、プラットフォームのプロセスの多くにおいて必要不可欠な要素であると考えられます。言い換えれば、独立した社会的プロセスと、公的機関に所属するボトムアップ・プロセスの両方になります。
+
+If social movements have demonstrated something over the last few years it is the central role played by self-organised collective action in kick-starting and guiding processes of change. In this regard decidim.barcelona and the processes using the platform need to boost social independence and self-organisation. In addition, political affiliation has to be a requisite feature in many of the platform’s processes, given that it is a key element of the platform’s medium- and long-term public and operative legitimacy. In other words, both independent social processes and bottom-up processes that are affiliated to public institutions.
+
+== 簡単な歴史 (Brief history)
+
+2015年9月の公開プレゼンテーションでは、マドリード市議会が立ち上げたデジタル参加型プラットフォームであり、ConsulのソフトウェアをベースにしたDecide Madridは、パブリックディベートや市民提案など、様々な参加型プロセスの実験を開始しました。バルセロナ市議会によって開始されたDecidim Barcelonaプロジェクトは、同じくConsulをベースにしていたが、大幅な変更を加え、新たなニーズに適応させたもので、2016年2月に発表された。その当初の目的は、将来的に市のアクションプラン（PAM）の起草や他の参加型プロセスを調整することでした。2ヶ月足らずで約25,000人が署名し、10,860の提案が提出され、410の会議が開催され、16万票以上の賛成票が集まりました。このようにして、市民、社会組織、バルセロナ市議会の間に協力と審議の場が開かれました。
+
+During its public presentation in September 2015, Decide Madrid, a digital participatory platform launched by Madrid City Council and based on Consul software, began to experiment with various participatory processes, such as public debates and citizen proposals. Launched by Barcelona City Council, the Decidim Barcelona project, which was also based on Consul but with major changes and adapted to new needs, was presented in February 2016. ​​Its original goal was to coordinate the participatory process for drafting the Municipal Action Plan (PAM) as well as other participatory processes in the city in the future. Some 25,000 people signed up to it in under two months, 10,860 proposals were submitted, 410 meetings held and over 160,000 votes in favour collected. In this way a collaboration and deliberation space opened up between citizens, social organisations and Barcelona City Council.
+
+多くの自治体では、その成功と、無料で再利用可能であることから、使用された技術を活用して、同様のプロセスを進めることに大きな関心が寄せられています。具体的には 具体的には、コルーニャ市議会はA Porta Abertaプラットフォームを利用した参加型予算プロセス、オビエド市議会はConsulta Oviedoを利用した市民提案の場、バレンシア市議会はdecidimVLCを利用した参加型予算の作成を行っている。また、ホスピタレット、バダロナ、テラサ、ガバの市議会、バルセロナ州議会、ローカルレットコンソーシアムなど、地方自治体やその他の機関がdecidim.barcelonaプロジェクトとその実施に大きな関心を示した事例も数多くありました。
+
+A great deal of interest was expressed in many municipalities in going ahead with similar processes, taking advantage of the technology used, given its success and the fact it was free and reusable. To be more specific: Coruña City Council, through its A Porta Aberta platform for Participatory Budget processes; Oviedo City Council, through its Consulta Oviedo, with a space for citizen proposals, and Valencia City Council, through decidimVLC, for preparing participatory budgets. There were also numerous cases of local authorities and other institutions showing great interest in the decidim.barcelona project and its implementation, such as the city councils of Hospitalet, Badalona, ​​Terrassa and Gavà, as well as Barcelona Provincial Council and the Localret Consortium.
+
+このような一連の変化と適応は、地方自治体の多様性、独立性、プラットフォームの中期的な持続可能性に対応する技術の適応を含む、新たな技術的な必要性へとつながっていきました。そのため、プロジェクト全体を柔軟にして時間の経過とともに成長させ、開発、機能設計、サポートコミュニティを生成することができる、スケーラブルで分散化された（またはモジュール化された）開発戦略が確立され、自治体レベルと（より重要な）自治体間レベルの両方で持続可能となりました。
+
+This series of changes and adaptations led in turn to a new technological need involving the adaptation of technology dealing with local-authority diversity, independence and the medium-term sustainability of the platform. Hence the establishment of a scalable and decentralised (or modular) development strategy enabling the entire project to be flexible and grow over time as well as generate a development, functional design and support community, which is sustained at both municipal and (more importantly) inter-municipal levels.
+
+このためバルセロナ市議会は、プラットフォームのアーキテクチャを徹底的に再考し、上述の原則とニーズに基づいてソフトウェアの全面的な書き換えを実施することになりました。この書き換えにより、Ruby on Railsをベースにした一般的で参加型の民主的なフレームワークであるDecidimプロジェクトが誕生しました。
+
+This led Barcelona City Council to thoroughly reconsider the platform’s architecture and carry out a complete rewrite of the software based on the above-mentioned principles and needs. This rewrite gave rise to the Decidim project, a generic,participatory democratic framework based on Ruby on Rails, whereby any group, organisation or institution that wanted to use it could do so with minimum technical requirements.
+
+== オープンな開発と自由なソフトウェア (Open development and free software)
+
+Decidimプラットフォームプロジェクトは自由なソフトウェアで開発されており(初期段階ではConsulをベースにしており、コードが完全に書き換えられた後も)、すべての開発はオープンであり、開発全体の追跡が可能であり、最初から追跡することができます。
+
+The Decidim platform project has been developed with free software (both at its initial stage, based on Consul, and after the code's complete rewrite) and all its development has been open, enabling its entire development to be traceable and followed right from the very beginning.
+
+フリーソフトウェアからの作成は、プラットフォームのソースコードがAGPL v3ライセンスまたはGNU Affero General Public Licence,footnote:[https://github.com/AjuntamentdeBarcelona/decidim/blob/master/LICENSE-AGPLv3.txt]を持っているという事実に由来しています。これは最も自由を提供するライセンスの一つであり、コピーレフト.footnote:[コピーレフトとは、IT、芸術、その他の創作物に適用可能なあらゆる範囲のライセンスの略です。コピーレフトの支持者は、著作権を、ある作品のコピーを作成したり再配布したりする権利を制限する方法だと考えています[2]。 実際、コピーレフトのライセンスは、実際の著作権法を使って、コピーや派生作品を受け取った誰もが、その作品と派生版の両方を使用、修正、さらには配布することができるようにします。厳密には非法的な意味では、コピーレフトは著作権の対極にあります。(Wikipedia, 2017)]。この点では、公共機関がこの種のソフトウェアに明確なコミットメントをすることは理にかなっています、それは、公共投資に対する社会的なリターンを受け取ることができるのは、そのようなライセンスを通してであることを考えると。
+
+Its creation from free software refers to the fact that the platform's source code has a AGPL v3 Licence or GNU Affero General Public Licence,footnote:[https://github.com/AjuntamentdeBarcelona/decidim/blob/master/LICENSE-AGPLv3.txt] which means the code has to allow for the possibility of its being consulted, copied, amended and reused, so long as the same licence is kept in any work or product derived from it. This is one of the licences that provides most freedom and is copyleft footnote:[Copyleft stands for a whole range of licences that can be applied to IT, artistic and other creations. Copyleft's supporters see copyright as a way of restricting people's right to make and redistribute copies of a work.[2] A copyleft licence, in fact, uses actual copyright legislation to ensure that everyone who receives a copy or derived work can use, amend and even distribute both the work and any derivative versions. In a strictly non-legal sense, then, copyleft is the opposite of copyright. (Wikipedia, 2017).]. In this regard, it makes sense for public authorities to make a clear commitment to this type of software, given that it is through such licences that we can receive social return on our public investments.
+
+ソフトウェアがオープンに開発されているという事実は、開発プロセス全体が透明でアクセス可能であることを意味します。言い換えれば、ソフトウェアの開発開始時から、すべての変更、貢献、開発者のコミュニティなどを誰でも見ることができます。同様に、透明性は市民参加だけでなく、ソフトウェア開発においても基本的な原則になりつつあります。
+
+The fact that the software has been openly developed means that the entire development process is transparent and accessible, in other words, that anyone can see, right from the start of the software's development, every change, contribution, community of developers involved etc. By the same token, transparency is becoming a fundamental principle not just in citizen participation but in software development too.
+
+このプラットフォームは、ソフトウェア開発におけるオープンなコラボレーションのために設計された GitHub.footnote:[https://github.com/] と呼ばれるプラットフォーム上で、コードへのアクセスやソフトウェア開発のモニタリングを可能にしています。GitHubはGitリポジトリをホストするために設計されていますが、GitLabのようなGitHubに代わるものもあります。
+
+All this has been done on a platform designed for open collaboration in software development known as GitHub.footnote:[https://github.com/] This platform enables access to codes and monitoring of the software's development. GitHub is designed to host Git repositories, though there are other alternatives to GitHub such as GitLab.
+
+== Decidim Barcelona
+
+Decidim BarcelonaはDecidimの最初の事例であり、プロジェクトの起源でもあります。Decidim Barcelonaは、バルセロナ市議会が、市のアクションプラン（PAM）を中心に、技術的に仲介された市民参加型のプロセスをオープンにする必要性を感じたことから生まれました。
+
+Decidim Barcelona is the first instance of Decidim and the origin of the project. Decidim Barcelona came about from Barcelona City Council’s need to open up a technologically mediated citizen-participation process around the Municipal Action Plan (PAM), with three major goals: making a process that is transparent and traceable, expanding participation through the digital platform and integrating face-to-face and digital participation.
+
+このプロセスには1万件以上の提案と16万票以上の賛成票が寄せられ、最終的には71％の市民提案が受け入れられ、1600以上のイニシアチブを通じてPAMに盛り込まれました。Decidimはもともとこのプロセスのホスティング専用に設計されていましたが、他の参加プロセスにも拡張する必要性がすぐに見出されました。
+
+This process received over 10,000 proposals and more than 160,000 votes in favour, with a final balance of 71% of citizen proposals accepted and included in PAM through over 1,600 initiatives. Decidim was originally designed exclusively for hosting this process though the need for extending it to other participation processes was quickly spotted.
+
+今日のDecidimのアイデアはここから生まれました。人々が望むだけ多くのプロセスを可能にする参加型プラットフォームであり、段階に分けられ、各段階でいくつかの機能を設定することが可能です。そのため、プロセスに組み込むことができる新しい機能（調査、共同文書作成、結果モニタリングなど）や、市民イニシアチブや参加協議会のような新しい参加型スペースをデザインする可能性が残されています。
+
+It was here that the idea for today's Decidim came about. A participatory platform that enables as many processes as people want, divided up into stages and with the possibility of setting several functions at each stage. The possibility was accordingly left open for designing new functions that could be integrated into the processes (surveys, collaborative-text drafting, result monitoring and so on), as well as the integration of new participatory spaces such as citizen initiatives and participation councils.
+
+Decidim Barcelonaは現在（2017年7月）12の参加型プロセスを開催しており、すでに約26,600人の参加者、約12,000件の収集された提案、1,700件の結果、670件の対面会議、18万5,000票の賛成票を収集しています。バルセロナでの良好な結果を受けて、このプラットフォームは、Hospitalet de Llobregat、Sabadell、Badalona、Terrassa、Gavà、Sant Cugat、Mataró、Vilanova i la Geltrúを含む他の自治体にも拡大されました。
+
+Decidim Barcelona is currently (July 2017) hosting 12 participatory processes and already has some 26,600 participants, almost 12,000 collected proposals, 1,700 results, 670 face-to-face meetings and 185,000 votes in favour collected. The platform’s good results in Barcelona led to its extension to other municipalities, including Hospitalet de Llobregat, Sabadell, Badalona, Terrassa, Gavà, Sant Cugat, Mataró and Vilanova i la Geltrú.
+
+== Decidim Municipis
+
+Decidimはマルチテナントプラットフォーム、つまり1回のインストールで必要なだけのインスタンスを利用できるプラットフォームです。ソフトウェアの世界では、ブログ用フリーソフトウェアWordpressプロジェクトのように、マルチテナントアーキテクチャの成功例は数多くあります。特に、サードパーティサービスとしてDecidimを提供したい機関にとっては便利です。州議会の事例は特に重要であり、単一のインストール（単一のエンティティによって維持、更新、維持される）で、希望する数だけの地方自治体に使用することができるため、インストールやメンテナンスのコストを削減し、そうでなければそのようなリソースへのアクセスがはるかに少ない中規模・小規模の地方自治体で市民参加を向上させるための技術的なソリューションを提供することができます。
+
+Decidim is a multitenant platform, that is, a platform where as many instances can be used as needed, with a single installation. There are numerous successful examples of multitenant architectures in the world of software, such as the Wordpress free software for blogs project. It is especially useful for institutions that wish to provide Decidim as a third-party service. The Provincial Council's case is especially important as it can be used with a single installation - maintained, updated and sustained by a single entity - for as many local authorities as desired, thereby reducing installation and maintenance costs and providing technological solutions for improving citizen participation in medium-sized and small local authorities that would otherwise have much less access to such resources.

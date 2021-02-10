@@ -1,0 +1,93 @@
+= Decidimの社会契約 (Decidim's Social Contract)
+
+民主的保証とオープンコラボレーションのためのコード
+
+Code for democratic guarantees and open collaboration
+
+これは、Decidimコミュニティのすべてのメンバーが従うことを約束する社会契約です。
+
+This is the social contract that all members of the Decidim community are committed to follow.
+
+この社会契約に署名することにより、個人、機関、社会的グループは、Decidimのコミュニティを利用、開発、参加する際に、ここに定められた原則を履行することを約束します。
+
+By signing this Social Contract, any individual, institution or social group of any kind, commits to fulfill the principles established here when using, developing and participating in the community of Decidim.
+
+== 自由なソフトウェアとオープンなコンテンツ (Free software and open content)
+
+プラットフォームのコードは、その機能と展開のために開発されたモジュール、ライブラリ、その他のコードと共に、常に https://www.gnu.org/licenses/agpl-3.0.en.html[Affero GPLv3ライセンスまたはそれ以降のバージョン] の自由なオープンソース・ソフトウェアであり、コードが新たに開発され、コードが再利用される場合には、上記のライセンスと互換性のあるライセンスが適用されます。
+
+The code of the platform, along with the modules, libraries or any other code that is developed for its functioning and deployment, will always be Free Open Source Software with an https://www.gnu.org/licenses/agpl-3.0.en.html[Affero GPLv3 license or later versions] whenever the code is newly developed and with licenses that are compatible with the above one when code re-used.
+
+同様に、コンテンツ、データ、API、および/または、あらゆるタイプのユーザと対話するために配備されるその他のインターフェースは、オープンで相互運用可能な標準（例：OpenID、RSS、OStatusなど）に従わなければならず、常に最も広く利用されているオープン標準との統合性を最大限に高める傾向があります。
+
+Likewise, the content, data, APIs and/or any other interfaces that are deployed to interact with any type of user must follow open and interoperable standards (ex. OpenID, RSS, OStatus, etc.), always tending to maximize their integration with the most widely used open standards.
+
+参加型のプロセス、機関、メカニズムにおける透明性と市民のコラボレーションを最大限に高めるために、コンテンツ、テキスト、グラフィック、フォント、オーディオ、ビデオ、その他のデザイン要素は、https://creativecommons.org/licenses/by-sa/4.0/legalcode[Creative Commons By-SA]の下で公開されます。
+
+In order to maximize transparency and citizen collaboration in participatory processes, organs and mechanisms, the content, text, graphics, fonts, audio, video or other design elements will be published under a https://creativecommons.org/licenses/by-sa/4.0/legalcode[Creative Commons By-SA].
+
+プラットフォームを通じて利用可能なデータ、特にスクラッパーやその他の大規模な協議の手法を通じて体系的に収集可能なすべてのデータは、http://opendatacommons.org/licenses/odbl[オープンデータ・コモンズ・オープン・データベース・ライセンス]のもとで公開・ライセンスされ、標準化されたアクセス可能なフォーマット（CSVやJSONなど）で公開され、可能な限りデータの分析や可視化を容易にするツールとともに公開されます。
+
+The data available through the platform, especially all data that can be collected in a systematic way through scrappers or other techniques of massive consultation, will be published and licensed under http://opendatacommons.org/licenses/odbl[Open Data Commons Open Database License], published under standardized and accessible formats (such as CSV, JSON, etc.) and, whenever possible, with tools that facilitate the analysis and visualization of data.
+
+== 透明性、トレーサビリティ、完全性 (Transparency, traceability and integrity)
+
+プラットフォームとその現在または将来の構成、開発、展開、使用は、文書、提案、討論、決定、その他のオブジェクト、メカニズム、参加型プロセスの透明性、トレーサビリティ、完全性を常に確保し、最大化しなければなりません。
+
+The platform, and its current or future configuration, development, deployment and use must ensure and maximize, at all times, the transparency, traceability and integrity of documents, proposals, debates, decisions, or any other object, mechanism or participatory process.
+
+_透明性_ とは、そのようなすべての参加型メカニズムやプロセスに関連するすべてのデータが、情報を共有するための最も厳しい基準やフォーマット（アクセシビリティ、マルチフォーマットなど）に従って、ダウンロード、分析、処理が可能であることを理解しています。
+
+By _transparency_ we understand that all data related to all such participatory mechanisms and processes are available for download, analysis and treatment, following the most demanding standards and formats to share information (accessibility, multi-format, etc.).
+
+透明性は参加型のプロセスやメカニズムを監視するために必要な条件ですが、いかなる場合においても、個人データの取り扱いやプラットフォームに参加している人々のプライバシーを守るために適用されるべきではありません。
+
+Transparency is a necessary condition for monitoring of participatory processes and mechanisms, but should never, in any case, be applied for the treatment of personal data or against the defense of the privacy of the people participating in the platform.
+
+私たちは、プロセスやメカニズムに含まれる提案、計画、規制、またはその他の参加や決定の対象に何が起こったのかを、後方（過去）と前方（未来）に完全に追跡する能力を _traceability_ と理解しています。プラットフォームは、参加型プロセスのある種の対象物が、どのように、なぜ、誰によって、どのような保証をもって、却下されたのか、承認されたのか、あるいはブロックされたのかを、常に示さなければなりません。
+
+We understand by _traceability_ the ability to fully track backward (past) and forward (future) what happened to the proposals, plans, regulations, or any other object of participation or decision included in a process or mechanism. The platform must at all times show how, why, by whom and with what guarantees a certain type of object of a participatory process was dismissed, approved or blocked.
+
+私たちは、 _integrity_ とは、特定のコンテンツの真正性を理解しており、その内容が明確に記録され、目に見える形で検証可能で監査可能であることを確認することなく、改ざんされたり、変更されたりしていないことを保証することです。誠実性の目標は、参加型のプロセスやメカニズムの提案や結果が操作されることを避けることです。
+
+We understand by _integrity_ the authenticity of a specific content, and ensuring that it has not been tampered with or altered without this modification being clearly recorded and visibly verifiable and auditable. The goal of integrity is to avoid manipulation of proposals or results of participatory processes or mechanisms.
+
+== 機会均等と品質指標 (Equal opportunities and quality indicators)
+
+前述の保証に加えて、このプラットフォームは、すべての人に平等な機会を保証することを約束し、また、プラットフォームが主催する可能性のある提案やその他の貢献に対しても平等な機会を保証します。プラットフォームは、すべての参加型オブジェクト（提案、討論、コメント、評価、またはいかなる種類の差別もなく扱われるように、すべての参加型オブジェクト（提案、討論など）に平等な出発点となる機会を提供します。この意味で、プラットフォームの利用者のデジタルIDは常に個人的なものであり、譲渡可能なものではなく、プラットフォーム上での決定権を与える検証もまたユニークなものでなければならず、プラットフォームを担当する管理主体が個人や主体の非人称化を保証する責任を負うべきです。
+
+Alongside the guarantees previously defined, the platform promises to ensure equal opportunities for all people, as well as for their proposals or other contributions the platform might host. The platform will offer equal starting opportunities to all participatory objects (proposals, debates, etc.) for them to be viewed, discussed, commented, evaluated or treated without discrimination of any kind. In this sense, the digital identity of the users of the platform will always be personal and not transferable, the verification that confers decision rights on the platform should also be unique, and it is the administrative entity in charge of the platform who should be responsible for ensuring non-impersonation of a person or entity.
+
+プラットフォームは、その民主的な質の確保を目的として、参加型プロセス、メカニズム、利用者の活動から得られたデータに基づいて開発された質の指標の利用を促進すべきです。これらの指標の定義のために、オープンデータと同様に、異なる構成要素の設定の共有を促進します。
+
+The platform should promote, with the aim of ensuring its democratic quality, the use of quality indicators developed on the basis of the data obtained from participatory processes, mechanism and user activity. Sharing of the setting of the different components as well as open data will be promoted for the definition of these indicators
+
+市民の政治参加の平等は、あらゆる民主主義システムの基本原則の一つであり、プラットフォームは、利用や機能に関して平等な機会を確保するだけでなく、アクセス権も確保しなければなりません。この意味で、プラットフォームを担当する主体は、普遍的に同様にすべての市民のためのプラットフォームへのアクセスとサポートを提供する方向に進む行動を促進するためのコミットメントを前提としています。
+
+Equality in political participation of citizens is one of the fundamental principles of any democratic system and the platform, not only has to ensure equal opportunities with respect to the uses and functions, but also the access right. In this sense the entity in charge of the platform assumes the commitment to promote actions that advance in the direction of providing access and support to the platform for all citizens alike universally Giving tools and resources appropriate to the platform is available to anyone who wants to use.
+
+== データの機密性 (Data confidentiality)
+
+プラットフォームが提供する機能や参加の可能性に参加するために人々が提供する可能性のある個人情報の機密性とプライバシーは、常に保証されているものとします。いかなる場合も、個人データは第三者に譲渡されることはありません。個人データは、ユーザー登録やプラットフォームの使いやすさを向上させるために厳密に必要な範囲を超えて使用されることはありません。プラットフォームの技術がそれを可能にした場合、意思決定プロセスにおける政治的嗜好や意志の表現は、プラットフォームの管理者やそれをホストするサーバーであっても、アクセスできないようになっているものとします。
+
+The confidentiality and privacy of the personal data that people might provide to participate in any of the functionalities and/or possibilities of participation that the platform provides shall be guaranteed at all times. In no case shall personal data be transferred to third parties. Personal data will not be used beyond what is strictly necessary for the purposes of user registration and improvements on the usability of the platform. Whenever platform technology makes it possible, the expression of political preferences or will in decision-making processes shall remain inaccessible even for the administrator of the platform or the server/s that host it.
+
+== 説明責任と責任 (Accountability and responsibility)
+
+市民へのコミットメントは、可能な限り最短時間ですべての問い合わせや投稿に対応するために取られなければなりません。また、参加型プロセスの結果をフォローアップし、それを具体的に要求する要求に対応するためのコミットメントを採択しなければなりません。最後に、参加プロセスの実施を体系的に評価するために、参加プロセスが完成した後のモニタリングのための指標の組み込みを検討することを約束しなければなりません。
+
+A commitment to citizens shall be taken to respond to all queries and contributions in the shortest time possible. A commitment shall also be adopted to follow-up the results of participatory processes and to respond to those demands which specifically request it. Finally, a commitment shall be taken to study the incorporation of indicators to monitor the participation processes once they are finalized, in order to systematically evaluate its implementation.
+
+== 継続的な改善と機関間連携  (Continuous improvement and inter-institutional collaboration)
+
+プラットフォームの継続的な改善を促進するために、定期的なレビューと評価のための仕組みを提供します。
+
+Mechanisms for periodic review and evaluation will be provided in order to facilitate the continuous improvement of the platform.
+
+プラットフォームの継続的な改善のために、プロジェクトに関わる機関間の連携と経験の交換を優先し、改善、修正、新たな開発を構築することを目的とします。
+
+Priority will be given to the collaboration and the exchange of experiences between the institutions involved in the project, with the aim to improve, fix and build new developments for the continuous improvement of the platform.
+
+この意味では、プラットフォーム全体の共通の利益となるような改善を進める際には、協調的な条件や環境が整えられ、必要に応じて各機関間の調整が可能となります。
+
+In this sense, collaborative conditions and environments will be facilitated when moving forward improvements that point to a common benefit of the entire platform, enabling inter-agency coordination mechanisms when necessary.

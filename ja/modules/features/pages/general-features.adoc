@@ -1,0 +1,120 @@
+= 一般的な特徴 (General features)
+:page-partial:
+
+以下では、スペースやコンポーネント、あるいは参加者に直接関連する機能には登場しない、プラットフォームの一般的な機能や特徴について、一連の概要を説明します。
+
+Below, we will outline a series of the platform’s general features and characteristics which do not appear in the spaces or components, or in the features directly associated with participants.
+
+== インストールと設定 (Installation and settings)
+
+Decidimは、以下のサービスがインストールされているGNU/Linuxサーバに、コマンドプロンプトを使って **簡単にインストール** できます。PostgreSQL 9.4+、Ruby 2.4.1、NodeJS + yarn (JavaScript依存管理)、ImageMagick、PhantomJS。自動インストールスクリプトにより、HerokuやDockerに依存システムやライブラリ、データベースなど自動で必要なサービスを丸ごとデプロイすることができます[2018Q4に予定されている機能]。
+
+Decidim **can be easily installed **using the command prompt in any GNU/Linux server with the following installed services: PostgreSQL 9.4+, Ruby 2.4.1, NodeJS with yarn (JavaScript dependency manage), ImageMagick and PhantomJS. An automatic installation script allows you to deploy the whole dependency system, libraries, databases and other automatically required services in Heroku or Docker [feature expected for 2018Q4].
+
+ポータルの *設定* は、管理パネルからフォームに記入する以下のフィールドで **カスタマイズ可能** です: ポータルの名前、ソーシャルネットワークのプロフィール（Twitter、Facebook、Instagram、YouTube、Github）、簡単な説明、ウェルカムテキスト、デフォルトの言語、ホームイメージ、組織のロゴ、ファビコン、参照プレフィックス（ポータルの要素に適用される一意の識別子）、組織のURL。
+
+The portal’s *settings* are **customisable **in the following fields that are filled out on a form from the administration panel: Name of the portal, social network profiles (Twitter, Facebook, Instagram, YouTube, Github); brief description; welcome text; default language; home image; the organisation’s logo; favicon; reference prefix (unique identifier that will apply to the portal’s elements) and the organisation’s URL.
+
+== 他のサービスとの統合、互換性、追加サービスの作成 (Integration with other services and compatibility/creation of additional services)
+
+Decidimは、Decidimでインストールまたは設定できる以下のサービスと簡単に統合することができます。
+
+Decidim can be easily integrated with the following services that can be installed or configured with Decidim:
+
+*  *OpenStreetMap*: 位置情報つきイベントや提案を表示します。*OpenStreetMap*: to show events and proposals with geo-location
+* *Piwik*: ウェブサイトのトラフィック分析 *Piwik*: website traffic analysis
+* *Pad*: コラボリアルタイムライティングボード（使用技術は未定) *Pad*: collaborative real-time writing boards (technology to be determined)
+* *デジタルIDと署名* : OAuth2デジタルID管理システム、ブロックチェーンに基づいたシステム、認知された機関のデジタルIDと署名管理システムとの統合。 *Digital identity and signature*: integration with OAuth2 digital-identity management system, systems based on blockchain and recognised institutional digital identity and signature management systems.
+* *分散型ファイリングシステム*: プラットフォームからの提案やその他の要素を、分散型ファイリングシステム（ブロックチェーン型またはIPFS型）で配布またはコピーします[未実装]。 *Distributed filing system*: Disseminating or copying proposals or other elements from the platform in a distributed filing system (blockchain or IPFS type) [Missing feature].
+* *マイクロブログ* : 参加者の活動(提案、観察、メッセージ)のための GNU Social や StatusNet タイプのような標準化されたオープンなマイクロブログプロトコル/サービスとの統合/互換性 [未実装]。 *Microblogging*: integration/compatibility with a standardised and open microblogging protocol/service such as GNU Social or StatusNet type for participants’ activities (proposals, observations and messages) [Missing feature].
+
+Decidimは、ウェブサイト上での閲覧やAPI経由でのアクセスが可能なサービスの他に、以下のサービスを自動的に生成します。
+
+Decidim automatically generates the following services besides the ones that can be browsed on the website or accessed through an API:
+
+* *SMTP*: メールの送信 *SMTP*: sending emails.
+* *カレンダー*: カレンダー管理システムとの連携・互換性、イベントカレンダーの自動作成・更新など。 *Calendar*: integration and compatibility with calendar-management systems and automatic creation and updating of events calendars, etc.
+
+== マルチテナンシー (Multitenancy)
+
+プラットフォームのマルチテナンシーは、1つのインストールをベースにして複数サイトを利用することができます。言い換えれば、Decidimソフトウェアの単一のインスタンスは、それぞれのテナントの特定の設定の下で必要なだけのポータル（テナント）を展開することができます。このようにして、組織はサブ組織のために参加型ポータルを作成したり、様々な組織がサーバーを共有してポータルのメンテナンスコストを削減したりすることができます。
+
+The multitenancy of the platform can be used on the basis of a single installation. In other words, a single instance of Decidim software allows to deploy as many portals (tenants) as you want under specific settings for each of the tenants. That way an organisation can create participatory portals for its sub-organisations or various organisations can share a server and reduce the maintenance costs of its portals.
+
+== 多言語対応 (Multi-language)
+
+Decidimは *多言語* プラットフォームです。利用可能な言語はインストール時に設定されます。メニュー、管理フォーム、一般的には、プラットフォームの固定テキストは、複数の言語（スペイン語、カタロニア語、バスク語、イタリア語、フランス語、オランダ語、フィンランド語、日本語等）で利用可能です。 https://crowdin.com/project/decidim の **共同翻訳 **システムにより、新しい言語をプラットフォームに組み込むことができます。
+
+Decidim is a *multi-language* platform. Its available languages will be configured during its installation. Menus, administrative forms and, generally, the platform's fixed texts are available in several languages (Spanish, Catalan, Basque, Italian, French, Dutch and Finnish). A **collaborative translation **system in https://crowdin.com/project/decidim enables new languages to be incorporated into the platform.
+
+コンテンツに関しては、インストール時にインスタンスの公用語が設定されると、管理パネルから作成されるすべてのコンテンツは、これらの言語で生成されるオプションがあります。管理パネルでは、タブを使って *複数の言語でコンテンツを管理* することができます。ユーザーによって生成されたコンテンツは、単一言語でプラットフォーム上に表示されます（メニューの上部にある言語セレクターで参加者が選択したもの、またはブラウザの言語設定で自動的に選択されたもの）。
+
+As for content, once the official languages of the instance have been set during the installation, all the content that is created from the administration panel has the option of being generated in these languages. The administration panel allows *content to be managed in several languages* through tabs. The content generated by users is displayed on the platform in a single language (the one chosen by the participant through the language selector in the upper part of the menus or automatically through its browser's language settings).
+
+== 統計、オープンデータ、ダウンロード (Statistics, open data and downloads)
+
+公開データへのアクセスを自動的に提供するアプリケーション・プログラミング・インターフェース(API)の他に、Decidimのホームページには、参加者数、プロセス、提案、結果、会議、観測、投票のフィールドを持つ *一般的な統計表* があります。
+
+Besides the application programming interface (API) which automatically provides access to public data, Decidim’s home page features a *general statistics table* with the following fields: number of participants, processes, proposals, results, meetings, observations and votes.
+
+また、各参加型プロセスの *統計表* には、ミーティング数、提案、投票、結果が表示されます。
+
+Another *statistics table for each participatory process* shows the number of meetings, proposals, votes and results of a specific process.
+
+管理パネルでは、参加型プロセスの提案、結果、観察結果をCSVやJSON形式で **エクスポート** したり、アンケートの回答を他の管理システムと統合して処理したりすることができます。参加者は、参加型プロセスの結果や実施状況をCSVファイルで **ダウンロード** することができます。
+
+The administration panel lets you **export the proposals, results and observations **of a participatory process in CSV and JSON format and responses to surveys for processing and/or integration with other management systems. Participants can **download the results of a participatory process and the extent of its implementation **through a CSV file.
+
+また、Decidimは、プラットフォームの一般的なレベルと特定のレベル（特定の参加空間のデータを表示する）で **データ表示コンポーネント** を自由に使用することができます［2018Q2-3、AjB-Lote2Mod4で予定されている機能］。表示されるグラフィックスの中には、以下のものが含まれています。
+
+Decidim also has a **data-display component **at its disposal on the platform’s general level and on a specific level (showing data from a specific Participatory Space) [Feature expected for 2018Q2-3, AjB-Lote2Mod4]. The following are included among the graphics that are displayed:
+
+* 各コンポーネントのカウンターの展開を時系列で表示する **インタラクティブなグラフィック** 。 **Interactive graphics **in the form of a time line showing the development of the various components’ counters.
+* すべての会議、提案、またはその他のコンテンツの位置情報タグつき *ヒートマップ* 。 *Heat map* of all the meetings, proposals or other content with geo-location tags.
+* プロセスの結果（参加型予算プロジェクトのそれぞれの金額、カテゴリー別のフィルタ、プロポーザルのステータス（選択されたかどうかなど）など）を表示する **インタラクティブなダイアグラム** （棒グラフまたは円グラフ）。 **Interactive diagrams **(bar or pie charts) with the results of a process (amounts of each of the participatory budget projects, filter by category and status of the proposals - whether selected or not, etc.)
+
+これらの表示には、いずれもCSV形式で **データをダウンロードするオプション** が付いています［2018Q2-3、AjB-Lote2Mod4の機能を予定しています］。
+
+All of these displays are accompanied by an **option for downloading data **in CSV format [Feature expected for 2018Q2-3, AjB-Lote2Mod4].
+
+== API、適応性のあるWebサイトデザイン、モバイルアプリ (API, adaptable website design and mobile app)
+
+Decidimは、Decidimのウェブサイトのインターフェイスから独立したサービスコールとデータを一連にしたアプリケーション・プログラミング・インターフェイスまたはAPIを持っています。これにより、サードパーティがプラットフォーム上でサービスを開発したり、データを自動的にリリースしたり、新しいインターフェースを開発したり、decidimと他のサービスを統合したりすることができます。
+
+Decidim has an application programming interface or API which is a series of independent service calls and data from Decidim's website interface. This allows third parties to develop services on the platform, automatically release data or develop new interfaces, or integrate other services with decidim.
+
+APIには *ドキュメント* と *形式化された参加型オントロジー* が付属しています。 [未完成]
+
+The API comes with *documentation* and a *formal participatory ontology* [Not completed]
+
+Decidimのウェブサイトの *デザイン* は、 _モバイルファースト_ のデザイン哲学（最初はモバイル向けにデザインされ、後にデスクトップやタブレットにも拡張されます）を採用しており、完全に *適応的* （ _レスポンシブ_ ）なデザインとなっています。
+
+Decidim's website *design* is completely *adaptable* (_responsive_), using _mobile-first_ design philosophy (designed first for mobiles and later extended to desktop systems and tablets).
+
+ウェブサイトのデザインとAPIの両方で、デシディムのモバイルアプリの開発が可能であり、将来的に *モバイルアプリ* の開発が予定されています。
+
+Both the website's design and the API enable the development of mobile apps for Decidim, and a *Mobile App* is expected to be developed soon.
+
+== コンテンツ分類システム (Content-classification systems)
+
+コンテンツの分類については、フィールド、カテゴリ、ラベル（またはタグ）を区別し、Decidimで調整するために、次のことを行います。
+
+As for content classification, the following to be distinguished and adjusted in Decidim: fields, categories and labels (or tags).
+
+*スコープ* はプラットフォーム全体で汎用的に使用され、 *地域* と *トピック* タイプに分けられます。地域エリアは一度定義されるとスペースの要素を地域ごとに分類することができます（例：プロセスやボディ、イニシアチブが1つの地区や2つの地区、都市全体、地域や国に影響を与える場合、組織に応じて）。また、プラットフォーム全体にもトピックエリアが定義されており、参加型スペースの様々な要素を分類することができます。
+
+*Scopes* are generic throughout the platform and divided up into *territorial* and **topic **types. Territorial areas, once defined, allow the spaces’ elements to be classified by territory (e.g. if a process or a body or an initiative affects a district or two, the entire city, a region or country, depending on the organisation). Topic areas are likewise defined for the entire platform and allow classification of the various elements of the participatory spaces.
+
+*カテゴリーとサブカテゴリー* は、様々なスペース内のコンテンツを分類するために使用され、スペースのレベルごとに定義されています。例えば、参加型プロセスにはいくつかのカテゴリやサブカテゴリがあり（プロセス管理者が定義）、プロセスの会議やアンケート、提案などはこれらのカテゴリに分類することができる。
+
+*Categories and subcategories* are used for classifying content within the various spaces and are defined for each of the levels of the spaces. So, for example, a participatory process may include several categories and subcategories (the process administrator defines them) whereas the process’ meetings, surveys, proposals and other components can be classed under these categories.
+
+フィールドやカテゴリとは対照的に、*ラベル* やタグは横断的で参加者が自由に定義できるもので、どのレベルやコンポーネントにも適用できます。ラベルは、管理パネルで作成、埋め込み、定義することができます。ラベル提案システムは、参加者がプラットフォームの要素にラベルを付けるために提案しているラベルに似たラベルを選択することを可能にします。要素はラベルで閲覧でき、最も人気のあるラベルが表示されます。
+
+In contrast to fields and categories, *labels* or tags are cross-cutting and freely defined by participants and can apply to any level or component. Labels can be created, embedded and defined in the administration panel. A label-suggestion system allows the people taking part to choose labels similar to the ones that are they are suggesting for labelling any of the platform's elements. Elements can be browsed by labels and the most popular labels displayed.
+
+== コンテクスチュアル・ヘルプ・システム、ユーザビリティと評価テスト (Contextual help system, usability and evaluation tests)
+
+Decidimには、個人や管理者の参加者がプラットフォームを使用する際にガイドするための *編集可能なコンテキストヘルプ* が含まれています。また、ユーザビリティや参加型プロセスのエラーを特定し、ソフトウェアの民主的な品質体験を向上させる目的で、参加者に実施される **自動評価調査** も含まれています。
+
+Decidim includes *editable contextual help* for guiding individual and administrative participants in using the platform. It also includes a **automatic evaluation surveys** to be conducted on participants for the purposes of identifying usability and participatory-procedure errors and improving the democratic quality experience of the software .

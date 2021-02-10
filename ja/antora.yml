@@ -1,0 +1,8 @@
+name: ja
+title: "Decidim Documentation"
+version: master
+asciidoc:
+  attributes:
+    page-lang: ja@
+nav:
+- modules/ROOT/nav.adoc
