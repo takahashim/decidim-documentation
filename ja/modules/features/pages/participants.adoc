@@ -37,7 +37,7 @@ The user-profile page also allows participants to add *additional information* t
 
 == モニタリングと通知 (Monitoring and notifications)
 
-参加者は、自分が作成したコンテンツに関する*自動通知*を受け取ることができます: 自分の提案に対するコメントやコメントへの回答、提案の結果(採否に関わらず)。
+参加者は、自分が作成したコンテンツに関する *自動通知* を受け取ることができます: 自分の提案に対するコメントやコメントへの回答、提案の結果(採否に関わらず)。
 
 Participants receive *automated notifications* regarding the content they have created: responses to comments and comments on their proposals, as well as the results of their proposals (whether accepted or rejected).
 

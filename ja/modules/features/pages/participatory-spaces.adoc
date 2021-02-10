@@ -19,7 +19,7 @@ Participatory processes require a general *configuration* form with the followin
 
 Participatory processes are divided into *stages* (e.g. 1. Information and convening stage; 2. diagnostics stage; 3. proposals stage; 4. prioritisation stage; 5. decision stage; 6. evaluation stage and 7. results-monitoring stage). Each stage includes the following configuration fields: title, description, start date, end date.
 
-*告知やテキスト*のハイライトをプロセス内で表示することもできます。
+*告知やテキスト* のハイライトをプロセス内で表示することもできます。
 
 *Highlights of announcements or texts* may also be displayed in the processes, both on the home page and in the heading of each component (proposals, discussions and debates, etc.) Different messages can be configured depending on the particular stage of a process.
 
@@ -31,7 +31,7 @@ A *participatory process configuration tool* enables the simple activation and d
 
 The feature of **process groups **enables various processes to be grouped, such as by the Participatory Budgets of different districts or neighbourhoods.
 
-参加型プロセスは、以下のプロセスステータス*のいずれかを持つことができます: 0）公開または未公開、1）公開（開始）、2）閉鎖（参加型プロセスは終了したが、その結果はまだ進行中、3）終了（プロセスとその結果の段階の両方が完了している）、4）将来（まだ開始していない）。
+参加型プロセスは、以下の *プロセスステータス* のいずれかを持つことができます: 0）公開または未公開、1）公開（開始）、2）閉鎖（参加型プロセスは終了したが、その結果はまだ進行中、3）終了（プロセスとその結果の段階の両方が完了している）、4）将来（まだ開始していない）。
 
 Participatory processes may have one of the following *process statuses*: 0) published or unpublished; 1) open (started); 2) closed (the participatory process has ended but its results are still under way; 3) finished (both the process and its results phase are complete) and 4) future (has not yet started).
 
@@ -45,11 +45,11 @@ There is also the possibility to **copy participatory processes** from the admin
 
 == アセンブリ (Assemblies)
 
-Decidimでは、提案や決定を行う権限を持った、個人または代表レベルで定期的に会合を持ち、構造化された参加者グループとして定義された、参加型または政府の*アセンブリ* (政府または参加型の組織、協議会、作業グループなど)の**作成と設定**を可能にしています。
+Decidimでは、提案や決定を行う権限を持った、個人または代表レベルで定期的に会合を持ち、構造化された参加者グループとして定義された、参加型または政府の *アセンブリ* (政府または参加型の組織、協議会、作業グループなど)の **作成と設定** を可能にしています。
 
 Decidim allows the **creation and configuration** of participatory or government *assemblies* (government or participatory bodies; councils; work groups, etc.) defined as structured participant groups which, whether on an individual or representative level, meet up periodically, with the authority to make proposals and decisions.
 
-アセンブリーセクション*では、管理パネルから有効化および設定されたすべてのアセンブリーの完全なリストを見ることができます。基本的な*設定*では、各団体ごとに以下のフィールドを入力する必要があります: 名前、イメージ、範囲(グローバル、地域的またはセクター的)、団体の機能(活動目的)、団体の種類(政府、執行機関、協議/諮問、参加型、作業グループ、委員会など)、作成日、(市議会、市民またはその他の人の主導で作成された)、期間(無期限または固定、後者の場合は終了日)、Decidimに含まれる日付、閉鎖日と理由、団体の構成方法(機能、権限など)、構成、Decidimに含まれることが可能な場合は、その理由を入力してください。 組織の構成、参加の可否とその方法、メンバーの選出方法、組織内のメンバーの種類／機能、監視委員会や諮問委員会としての内部作業グループの構成、組織の特徴、組織のソーシャルネットワーク（ソーシャルネットワークの名称とリンク）、組織の次回会合。
+*アセンブリーセクション* では、管理パネルから有効化および設定されたすべてのアセンブリーの完全なリストを見ることができます。基本的な *設定* では、各団体ごとに以下のフィールドを入力する必要があります: 名前、イメージ、範囲(グローバル、地域的またはセクター的)、団体の機能(活動目的)、団体の種類(政府、執行機関、協議/諮問、参加型、作業グループ、委員会など)、作成日、(市議会、市民またはその他の人の主導で作成された)、期間(無期限または固定、後者の場合は終了日)、Decidimに含まれる日付、閉鎖日と理由、団体の構成方法(機能、権限など)、構成、Decidimに含まれることが可能な場合は、その理由を入力してください。 組織の構成、参加の可否とその方法、メンバーの選出方法、組織内のメンバーの種類／機能、監視委員会や諮問委員会としての内部作業グループの構成、組織の特徴、組織のソーシャルネットワーク（ソーシャルネットワークの名称とリンク）、組織の次回会合。
 
 The *assemblies section* allows you to see a full list of all of the assemblies that are activated and configured from the administration panel. The basic *settings* require the following fields to be completed for each body: name; image; scope (global, territorial or sectoral); body’s function (purpose of action); type of body (government, executive, consultative / advisory, participatory, work group, commission etc.); creation date; created on the initiative of (City Council, citizens or others); duration (indefinite or fixed, in the latter case, finishing date); date of inclusion in Decidim; date of closure and reason; how it is organised (functions, powers etc.); composition; if it can be joined and how to do that; method of choosing members; type/ function of members within the body; composition of internal work groups as monitoring or advisory committees; characteristics of the body; the body's social networks (name of social network and link) and the body’s next meetings.
 

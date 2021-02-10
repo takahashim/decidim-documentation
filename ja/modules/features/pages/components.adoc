@@ -58,11 +58,11 @@ Participatory texts are defined as an ordered collection of proposals that make 
 
 Results are proposals (or amendments to proposals) which have ended up being the result of a decision taken in Decidim, whether directly (as a consequence of applying a voting system) or brought about by meetings, assemblies or the expert or political team in charge of a decision area through the platform’s management.
 
-結果コンポーネントでは、提案されたすべての提案に対して*公式な回答*を管理することができます: 提案を拒否または承認した理由と、提案が承認された結果が表示されます。
+結果コンポーネントでは、提案されたすべての提案に対して *公式な回答* を管理することができます: 提案を拒否または承認した理由と、提案が承認された結果が表示されます。
 
 The results component allows *official responses* to be managed for all the proposals made: with the reason for rejecting or accepting the proposal and the result in which the proposal has been accepted.
 
-結果は、結果に組み込まれた提案のトレーサビリティ*や、それらの提案が議論され、議論された会議や作成された会議（会議に出席した人たち）、受け取った承認に関するメタデータを収集します。
+結果は、結果に組み込まれた提案の *トレーサビリティのメタデータ* や、それらの提案が議論され、議論された会議や作成された会議（会議に出席した人たち）、受け取った承認に関するメタデータを収集します。
 
 Results collect *metadata on the traceability* of the proposals incorporated into the result, as well as the meetings where they were discussed and debated or created (by those attending these meetings) and the endorsements received.
 
@@ -173,7 +173,7 @@ Decidim has a configuration and conference-page generator, which enables the cre
 
 Configuration settings include:
 
-* イベントの*インタラクティブなプログラム*を生成するオプション(ゲストスピーカーがいる場合は、名前、役職、組織、小さな経歴、他のウェブサイトへのリンクが含まれます)。 The option to generate an *interactive programme* on the event (where there are guest speakers, it will include their name, position, organisation, a small biography and links to other websites).
+* イベントの *インタラクティブなプログラム* を生成するオプション(ゲストスピーカーがいる場合は、名前、役職、組織、小さな経歴、他のウェブサイトへのリンクが含まれます)。 The option to generate an *interactive programme* on the event (where there are guest speakers, it will include their name, position, organisation, a small biography and links to other websites).
 * *招待状* をメールで送ることができます。 Email *invitations*.
 * 管理者が確認できるサポートパネルを使って、ご希望の方のために *ディプロマの自動作成* を行います。 *Automatic diploma creation* for those who request it, through a support panel that an administrator can verify.
 * プログラムや資料の中にあるイベントのビデオや資料へのリンク。 Links to the event *video and materials* platforms in the programme and documents.
