@@ -1,43 +1,65 @@
-= Governance
+= 運営 (Governance)
 
-== About the code
+== コードについて (About the code)
+
+新しい機能を作りたい場合は、 https://decidim.org/modules[新規モジュール] を作成し自分のサイトに取り込むことができます。ウェブサイトに公開したい場合は、 https://decidim.org/contact[お問い合わせください] 。
 
 For making new features, you can made a https://decidim.org/modules[new module] for your own application. If you want to publish it on the website, you can https://decidim.org/contact[send us an message].
 
+新機能を追加したり、コードベースに変更を加えたりしたい場合は、以下の手順で行います:
+
 If you want to add a new feature or a change on the codebase, the process is:
 
-. Suggest your change in https://meta.decidim.barcelona/processes/roadmap[Metadecidim]
-. Wait until Product Team reviews and accept the feature, as it's important to be consistent with the rest of the software, comply with the Social Contract, etc.
-. Then you can make the Pull Request.
-. The PR will get reviewed by: 
-.. Product Team: will review the functionality
-.. Mantainers: will review the code quality
+. https://meta.decidim.barcelona/processes/roadmap[Metadecidim] であなたの変更を提案してください。 Suggest your change in https://meta.decidim.barcelona/processes/roadmap[Metadecidim]
+. 製品チームがレビューして機能を承認するまで待ちます。 Wait until Product Team reviews and accept the feature, as it's important to be consistent with the rest of the software, comply with the Social Contract, etc.
+. その後、プルリクエストを行うことができます。 Then you can make the Pull Request.
+. PRは以下の方々にレビューされます。 The PR will get reviewed by: 
+.. プロダクトチーム: 機能をレビューします Product Team: will review the functionality
+.. メンテナー: コード品質をレビューします Mantainers: will review the code quality
 
-image::workflow-features.png[new feature workflow process]
+image::workflow-features.png[新機能ワークフロープロセス]
+
+このプロセスについて考慮しなければならないことがいくつかあります。
 
 Some things that you need to take in account about this process:
 
-* If you make the PR without Product Team approval then you could get rejected (after investing lots of time on developing). 
-* Proposals can receive endorsements, although these are not decisive for a proposal to be included on the roadmap. The endorsements serve as indicators of the interest of the proposal or the need it covers. The comments to the proposals are also enabled, to collectively elaborate the initial idea and bring it to a productive result.
-* Every Thursday the Product team reviews all new proposals that have been published the previous week
-* If no funding is available it is included in the backlog of the corresponding component or module.
+* プロダクトチームの承認なしにPRを行うと、(開発に多くの時間を投資した後に)却下される可能性があります。 If you make the PR without Product Team approval then you could get rejected (after investing lots of time on developing). 
+* 提案は承認を受けることができますが、これがロードマップに含まれるかどうかの決め手にはなりません。エンドースメントは提案の関心度やニーズを示す指標として機能します。提案へのコメントはまた、最初のアイデアをまとめて精巧にし、生産的な結果をもたらすために、有効になっています。 Proposals can receive endorsements, although these are not decisive for a proposal to be included on the roadmap. The endorsements serve as indicators of the interest of the proposal or the need it covers. The comments to the proposals are also enabled, to collectively elaborate the initial idea and bring it to a productive result.
+* 毎週木曜日、製品チームは前の週に公開されたすべての新しい提案をレビューします。 Every Thursday the Product team reviews all new proposals that have been published the previous week
+* 資金がない場合は、対応するコンポーネントやモジュールのバックログに含まれます。 If no funding is available it is included in the backlog of the corresponding component or module.
 
-== About the organization
+== 組織について (About the organization)
+
+Decidimは当初、バルセロナ市によって開発されたが、すぐにLocalretやその他のカタルーニャ地方の機関や行政、例えばDiputació de Barcelona（バルセロナ州政府）や他のカタルーニャ地方の都市: Terrassa、Sabadell、Gavà、L'Hospitalet de Llobregat、Badalona、Sant Cugatなどの助力を得ながら発展していきました。歴史については、xref:understand:about.adoc[About]で詳しく解説しています。
 
 Decidim was initially created by the city of Barcelona, but quickly it evolved through the help of Localret and other entities and administrations from Catalonia, such as Diputació de Barcelona (Barcelona Provincial Government), and other catalan cities: Terrassa, Sabadell, Gavà, L'Hospitalet de Llobregat, Badalona and Sant Cugat. You can read more about the history in xref:understand:about.adoc[About].
 
+2017年の最初のバージョンから、プロジェクトの持続可能性をバルセロナ市のような特定の機関に依存しないことが将来的に問題になる可能性があることを認識しています。強力なコミュニティや持続可能性戦略を持たない公的機関によって作られた他のオープンソースプロジェクトは、資金調達ができずに閉鎖されたり、ゆっくりと死んでいったりしています。
+
 Since our first version in 2017 we've detected that it's necessary for the sustainability of the project to not depend in a given institution such as the city of Barcelona, as that could be problematic for the future. Other open source projects made by public institutions that didn't have a strong community or a sustainability strategy get shut down or slowly die without funding.
+
+このようなオープンソース・ソフトウェアを公的機関から公的契約法で作るのは本当に難しいことであり、この新しい組織で取り組みたいもう一つの問題は、社内の開発者と契約するためのリソースを持っていることです。
 
 Making this kind of open source software from the public institutions and through public contracting law is really difficult and one other issue that we want to tackle with this new organization is about having resources for contracting in-house developers.
 
-With all this on mind, we started with the https://meta.decidim.org/processes/decidim-gov[Metadecidim Governance participatory process] starting in November 2017: 
+そのような考えに基づき、2017年11月から https://meta.decidim.org/processes/decidim-gov[Metadicidiimガバナンス参加型プロセス] を開始しました。
+
+With all this on mind, we started with the https://meta.decidim.org/processes/decidim-gov[Metadecidim Governance participatory process] starting in November 2017:
 
 ****
+Decidimプロジェクトのための自律的で透明性のある民主的な組織を構築するために、私たちが装備しなければならない意思決定および代表機関について、コミュニティ全体に開かれたプロセス。
+
 A process open to the entire Community regarding the decision-making and representative bodies that we must equip ourselves with in order to build an autonomous, transparent and democratic organisation for the Decidim Project.
+
+その目的は、コミュニティ全体が参加し、複数のレベルでプロジェクトを管理できる自律的な組織や団体へと変貌させることができる組織と代表システム（内部組織とその選択方法）を定義することです。
 
 The objective is to define an organizational and representation system (internal organs and how they are chosen) that can be transformed into an autonomous entity or association from which the whole community participates and can manage the project at multiple levels
 
+Decidimプロジェクトには、持続可能な方法で成長を続けるために十分な自治を享受できるような独自のガバナンスシステムが必要であり、そのためには意思決定機関と紛争解決機関が提供されなければなりません。
+
 The Decidim project needs a system of its own governance that allows it to enjoy sufficient autonomy to continue growing in a sustainable manner, which is why it has to be provided with decision-making and conflict resolution bodies.
 ****
+
+その後、2019年2月にDecidimアソシエーションが設立され、その日からバルセロナ市や他の公共機関と契約を結び、資金調達や自社開発者を獲得しています。 https://meta.decidim.org/assemblies/general-assembly-association[Decidimアソシエーション総会] の詳細はこちらをご覧ください。
 
 After this, on February 2019 the Decidim Association was created and from that date is signing agreements with the city of Barcelona and other public institutions to get funding and in-house developers. You can read more about the https://meta.decidim.org/assemblies/general-assembly-association[General Assembly of the Decidim Association].

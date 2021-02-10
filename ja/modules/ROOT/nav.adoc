@@ -76,8 +76,8 @@
 *** xref:admin:how-to-access-administrator-menu.adoc[How to access the administrator menu]
 *** xref:admin:information-pages.adoc[Information pages]
 
-* xref:contribute:index.adoc[Contribute]
-** xref:contribute:translations.adoc[Translations]
+* xref:contribute:index.adoc[貢献]
+** xref:contribute:translations.adoc[翻訳]
 
 * xref:develop:index.adoc[Develop]
 ** xref:develop:guide.adoc[Guide]
@@ -127,19 +127,19 @@
 **** xref:develop:view_hooks.adoc[View Hooks]
 **** xref:develop:view_models_aka_cells.adoc[View Models (Cells)]
 
-* Understand
-** xref:understand:about.adoc[About]
-** xref:understand:background.adoc[Background]
-** xref:features:general-description.adoc[Features]
-*** xref:features:participatory-spaces.adoc[Participatory spaces]
-*** xref:features:components.adoc[Components]
-*** xref:features:participants.adoc[Participants]
-*** xref:features:general-features.adoc[General features]
+* Decidimを知る
+** xref:understand:about.adoc[概要]
+** xref:understand:background.adoc[背景]
+** xref:features:general-description.adoc[機能紹介]
+*** xref:features:participatory-spaces.adoc[参加型スペース]
+*** xref:features:components.adoc[コンポーネント]
+*** xref:features:participants.adoc[参加者]
+*** xref:features:general-features.adoc[特徴]
 // ** xref:understand:governance.adoc[Project governance]
 // ** xref:understand:history.adoc[History of the project]
 // ** xref:understand:research.adoc[Research]
-** xref:understand:social-contract.adoc[Social Contract]
-** xref:publications:index.adoc[Publications]
+** xref:understand:social-contract.adoc[社会契約]
+** xref:publications:index.adoc[参考文献]
 *** xref:publications:catalan.adoc[Catalan]
 *** xref:publications:english.adoc[English]
 *** xref:publications:french.adoc[French]
@@ -147,9 +147,9 @@
 *** xref:publications:italian.adoc[Italian]
 *** xref:publications:spanish.adoc[Spanish]
 
-* xref:whitepaper:index.adoc[Whitepaper]
-** xref:whitepaper:decidim-a-brief-overview.adoc[Decidim: a brief overview]
+* xref:whitepaper:index.adoc[ホワイトペーパー]
+** xref:whitepaper:decidim-a-brief-overview.adoc[Decidim: その概要]
 
-* xref:releases:index.adoc[Release Notes]
+* xref:releases:index.adoc[リリースノート]
 
-* xref:ROOT:governance.adoc[Governance]
+* xref:ROOT:governance.adoc[プロジェクト運営]
