@@ -21,7 +21,7 @@ The documentation covers xref:install:index.adoc[installing], xref:configure:ind
 
 If you want to make changes to the source code, we have documentation for xref:develop:guide.adoc[developers] too.
 
-Decidimを使いたいと思っている組織や、ソフトウェアの共同開発に興味のある開発者の方は、https://decidim.org/contact[お問い合わせ] までご連絡ください。
+Decidimを使いたいと思っている組織や、ソフトウェアの共同開発に興味のある開発者の方は、 https://decidim.org/contact[お問い合わせ] までご連絡ください。
 
 If you are an organisation who wants to use Decidim, or a developer who is interested in collaborating on the software, please https://decidim.org/contact[get in touch].
 
